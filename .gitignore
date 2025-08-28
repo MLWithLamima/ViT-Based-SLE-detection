@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+*.ipynb_checkpoints
+
+# Data / Models (use LFS or keep out of repo)
+data/
+datasets/
+results/
+checkpoints/
+models/*
+!models/.keep
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
